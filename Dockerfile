@@ -24,4 +24,4 @@ USER coder
 ENV PASSWORD=123456
 
 # Bind to Render's assigned port
-CMD ["--bind-addr", "0.0.0.0:${PORT}"]
+CMD code-server --bind-addr 0.0.0.0:${PORT}
