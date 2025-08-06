@@ -17,7 +17,7 @@ COPY settings.json /home/coder/.local/share/code-server/User/settings.json
 USER coder
 
 # Set your VS Code password (change it here)
-ENV PASSWORD=yourpassword
+ENV PASSWORD=123456
 
 # Bind to Render's assigned port
 CMD ["--bind-addr", "0.0.0.0:${PORT}"]
