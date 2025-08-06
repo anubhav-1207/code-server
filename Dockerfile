@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y python3 python3-pip
 USER coder
 
 # Set VS Code password
-ENV PASSWORD=yourpassword
+ENV PASSWORD=123456
 
 # Bind to Render's port
 CMD ["--bind-addr", "0.0.0.0:8080"]
