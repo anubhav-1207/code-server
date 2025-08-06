@@ -1,3 +1,3 @@
 FROM codercom/code-server:latest
-ENV PASSWORD=123456
-CMD ["--bind-addr", "0.0.0.0:8080"]
+ENV PASSWORD=yourpassword
+CMD ["--bind-addr", "0.0.0.0:${PORT}"]
